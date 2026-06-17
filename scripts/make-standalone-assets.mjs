@@ -11,17 +11,8 @@ const markDataUri = `data:image/png;base64,${markBase64}`;
 const svgFiles = ['logo.svg', 'logo-horizontal.svg', 'logo-mark.svg'];
 
 const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="EggAi favicon">
-  <defs>
-    <linearGradient id="eggai-favicon-gradient" x1="12" y1="10" x2="52" y2="54" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#7df7ff"/>
-      <stop offset="0.52" stop-color="#23b9ff"/>
-      <stop offset="1" stop-color="#2563eb"/>
-    </linearGradient>
-  </defs>
   <rect width="64" height="64" rx="14" fill="#1f2630"/>
-  <path d="M20 48c-8-10-5-29 11-35 16 6 22 25 13 35-6 6-18 6-24 0Z" fill="none" stroke="url(#eggai-favicon-gradient)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M23 45 32 20l9 25M27 36h10" fill="none" stroke="#d8fbff" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="48" cy="22" r="4.5" fill="#1f2630" stroke="#7df7ff" stroke-width="3.4"/>
+  <image href="${markDataUri}" x="2" y="7" width="60" height="50" preserveAspectRatio="xMidYMid meet"/>
 </svg>
 `;
 

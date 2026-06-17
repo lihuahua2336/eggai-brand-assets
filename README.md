@@ -13,7 +13,7 @@ Official brand asset package for EggAi.
 - `logo-mark.svg`: Square mark wrapper for avatars, app icons, and social previews.
 - `logo-mark.png`: Standalone PNG version of the logo mark.
 - `logo-mark.webp`: Standalone WebP version of the logo mark.
-- `favicon.svg`: Small-size optimized SVG favicon source.
+- `favicon.svg`: Small-size optimized SVG favicon source using the EggAi mark.
 - `favicon.png`: Standalone PNG favicon source.
 - `favicon.webp`: Standalone WebP favicon source.
 - `favicon.ico`: Multi-size ICO containing 16, 32, and 48 px icons.
@@ -51,6 +51,6 @@ Example HTML:
 
 ## Notes
 
-The logo SVG files are self-contained and embed the finalized EggAi image mark as a data URI. The favicon SVG is a standalone vector icon. They do not depend on any other repository file at render time.
+The SVG files are self-contained and embed the finalized EggAi image mark as a data URI. They do not depend on any other repository file at render time.
 
-`favicon.*` is intentionally simplified for tab-sized rendering so it stays readable at 16 to 32 px.
+`favicon.*` uses the same EggAi mark as the logo, cropped and scaled for tab-sized rendering without the wordmark.
