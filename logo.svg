@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+  <title id="title">EggAi logo</title>
+  <desc id="desc">EggAi logo built from the EggAI reference-image generated mark, with exact typed wordmark and tagline.</desc>
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="42%" r="48%">
+      <stop offset="0" stop-color="#5deaff" stop-opacity="0.32"/>
+      <stop offset="0.48" stop-color="#229fe8" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="word" x1="360" y1="575" x2="850" y2="710" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06236d"/>
+      <stop offset="0.55" stop-color="#0a3d94"/>
+      <stop offset="1" stop-color="#041856"/>
+    </linearGradient>
+    <filter id="wordGlow" x="-20%" y="-45%" width="140%" height="190%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.25 0 0 0 0 0.78 0 0 0 0 1 0 0 0 0.28 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .word{font-family:Inter,Montserrat,Avenir Next,Arial,sans-serif;font-weight:800;letter-spacing:-2px;fill:url(#word)}
+      .tag{font-family:Inter,Montserrat,Avenir Next,Arial,sans-serif;font-weight:700;letter-spacing:4px;fill:#06236d}
+    </style>
+  </defs>
+  <rect width="1200" height="840" fill="none"/>
+  <ellipse cx="600" cy="366" rx="278" ry="254" fill="url(#halo)"/>
+  <image href="source/eggai-generated-mark.png" x="330" y="84" width="540" height="540" preserveAspectRatio="xMidYMid meet"/>
+  <g filter="url(#wordGlow)">
+    <text class="word" x="600" y="672" font-size="126" text-anchor="middle">EggAi</text>
+    <text class="tag" x="600" y="724" font-size="26" text-anchor="middle">UNIFIED AI APIs</text>
+  </g>
+</svg>

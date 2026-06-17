@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">EggAi horizontal logo</title>
+  <desc id="desc">Horizontal EggAi logo built from the EggAI reference-image generated mark.</desc>
+  <defs>
+    <linearGradient id="word" x1="360" y1="112" x2="860" y2="254" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06236d"/>
+      <stop offset="0.55" stop-color="#0a3d94"/>
+      <stop offset="1" stop-color="#041856"/>
+    </linearGradient>
+    <style>
+      .word{font-family:Inter,Montserrat,Avenir Next,Arial,sans-serif;font-weight:800;letter-spacing:-2px;fill:url(#word)}
+      .tag{font-family:Inter,Montserrat,Avenir Next,Arial,sans-serif;font-weight:700;letter-spacing:4px;fill:#06236d}
+    </style>
+  </defs>
+  <rect width="1280" height="360" fill="none"/>
+  <image href="source/eggai-generated-mark.png" x="50" y="30" width="300" height="300" preserveAspectRatio="xMidYMid meet"/>
+  <text class="word" x="405" y="202" font-size="118">EggAi</text>
+  <text class="tag" x="414" y="256" font-size="24">UNIFIED AI APIs</text>
+</svg>
