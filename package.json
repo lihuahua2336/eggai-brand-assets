@@ -1,0 +1,23 @@
+{
+  "name": "eggai-brand-assets",
+  "version": "1.0.0",
+  "description": "Official brand asset package for EggAi.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/make-standalone-assets.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihuahua2336/eggai-brand-assets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lihuahua2336/eggai-brand-assets/issues"
+  },
+  "homepage": "https://github.com/lihuahua2336/eggai-brand-assets#readme",
+  "devDependencies": {
+    "sharp": "^0.35.1"
+  }
+}
